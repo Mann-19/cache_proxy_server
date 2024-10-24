@@ -1,0 +1,19 @@
+{
+  "name": "cached-proxy-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node proxy.js",
+    "dev": "nodemon proxy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "http": "^0.0.1-security",
+    "http-proxy": "^1.18.1"
+  }
+}
